@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTES -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- FIM BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="index.css">
+
+    <script src="index.js" defer></script>
+
+    <title>Eletrosete</title>
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a>
+                    <img class="logo_1" src="img/logo2023.png" alt="Logo da Eletrosete">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="especialidades.html">Especialidades</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="especialidades.html">Especialidades</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>SOLUÇÃO EM INFORMÁTICA E ASSISTÊNCIA TÉCNICA<span>.</span></h1>
+                        <p>Empresa focada em soluções de informática e reparo eletrônico, atendendo Sete Lagoas, Araçaí e região.</p>
+
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="img/icon_body.png" alt="">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="especiliadades">
+            <div class="interface">
+                <h2 class="titulo">NOSSA <span>ESPECIALIDADE:</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-cpu"></i>
+                        <h3>Manutenção</h3>
+                        <p>Manutenção em computadores e notebooks.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-wrench-adjustable"></i>
+                        <h3>Reparos</h3>
+                        <p>Realizamos reparos em placas eletrônicas.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-gpu-card"></i>
+                        <h3>Montagens</h3>
+                        <p>Fazemos montagem de computadres desktop e PC gamer.</p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especiliadades-->
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="img/icon_sobre.png" alt="">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU OTÁVIO CAMPOS.</span></h2>
+                        <p>Formado como Técnico em Eletrônica e Superior em Análise de Sistemas, idealizei o projeto Eletrosete para que desse (opção) de reparos para as pessoas ao invés de condenar uma placa e ter que la substitui.</p>
+                        <p>Essa ideia surgiu apos observar o mercado de informática e perceber que muitas das vezes não é feita uma análise eletrônica do equipamento, muito por isso viemos para mudar um pouco o mercado local dando a opção de reparo.</p>
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/eletr.o7/"><button><i class="bi bi-instagram"></i></button></a>
+        <!--Inserir depois  <a href="#"><button><i class="bi bi-youtube"></i></button></a> --> 
+                            <a href="https://www.linkedin.com/in/otavio-campos/"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(img/project_1.png);">
+                        <div class="overlay">Troca de Teclado</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(img/project_2.png);">
+                        <div class="overlay">PC Gamer</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(img/project_3.png);">
+                        <div class="overlay">Troca Wifi e DC Jack</div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+
+                <form action="mailto:eletrosete.info@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail:" required>
+                    <input type="tel" name="celular" id="celular" placeholder="Seu celular(Opcional):">
+                    <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem" required></textarea>
+                    <div style="display: flex; gap: 10px;">
+                        <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                        <div class="btn-reset"><input type="reset" value="LIMPAR"></div>
+                    </div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img class="logo_footer" src="img/logo2023.png" alt="Logotipo Agência BRN">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/eletr.o7/"><button><i class="bi bi-instagram"></i></button></a>
+    <!--Inserir depois  <a href="#"><button><i class="bi bi-youtube"></i></button></a> --> 
+                        <a href="https://www.linkedin.com/in/otavio-campos/"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:eletrosete.info@gmail.com">eletrosete.info@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+
+</body>
+</html>

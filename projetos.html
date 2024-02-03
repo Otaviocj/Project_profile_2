@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTES -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- FIM BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="index.css">
+
+    <script src="index.js" defer></script>
+
+    <title>Eletrosete</title>
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a>
+                    <img class="logo_1" src="img/logo2023.png" alt="Logo da Eletrosete">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="especialidades.html">Especialidades</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="especialidades.html">Especialidades</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+    <section class="projetos">
+        <div class="flex-projeto">
+            <div class="titulo-projetos">
+                <h1>NOSSOS PROJETOS<span>:</span></h1>
+                <p>Com uma equipe qualificada temos alguns trabalhos realizados com muita qualidade e satifação dos nossos clientes!</p>
+            </div>
+        </div>    
+    </section>
+    <section class="slider">
+        <div class="flex.slider">
+            <div class="slides-content">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                <input type="radio" name="slide" id="slide5">
+            </div>
+            <div class="slide s1">
+                <img src="img/work/work-1/1.png" alt="imagem-1">
+            </div>
+            <div class="slide">
+                <img src="img/work/work-1/2.png" alt="imagem-2">
+            </div>
+            <div class="slide">
+                <img src="img/work/work-1/3.png" alt="imagem-3">
+            </div>
+            <div class="slide">
+                <img src="img/work/work-1/4.png" alt="imagem-4">
+            </div>
+            <div class="slide">
+                <img src="img/work/work-1/5.png" alt="imagem-5">
+            </div>
+        </div>
+        <div class="nav-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+            <div class="auto-btn5"></div>        
+        </div>
+        <div class="nav-manual">
+            <label class="manual-btn" for="slide1"></label>
+            <label class="manual-btn" for="slide2"></label>
+            <label class="manual-btn" for="slide3"></label>
+            <label class="manual-btn" for="slide4"></label>
+            <label class="manual-btn" for="slide5"></label>
+        </div>
+
+    </section>
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img class="logo_footer" src="img/logo2023.png" alt="Logotipo Agência BRN">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/eletr.o7/"><button><i class="bi bi-instagram"></i></button></a>
+    <!--Inserir depois  <a href="#"><button><i class="bi bi-youtube"></i></button></a> --> 
+                        <a href="https://www.linkedin.com/in/otavio-campos/"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:eletrosete.info@gmail.com">eletrosete.info@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+
+</body>
+</html>
